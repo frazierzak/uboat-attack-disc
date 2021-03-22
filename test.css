@@ -1,0 +1,13 @@
+.svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.clipped {
+  width:884px;
+  height: 884px;
+  background: turquoise url(images/4.png);
+  background-size: cover;
+  -webkit-clip-path: url(#my-clip-path);
+  clip-path: url(#my-clip-path);
+}
